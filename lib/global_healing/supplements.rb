@@ -2,9 +2,13 @@
 class GlobalHealing::Supplement
 attr_accessor :name, :price, :ingredients, :faqs
 
-def all
+def self.product
+
+self.scrape_supplements
+end
   # should return all the supplement instances
 
+def self.scrape_supplements
 
 supplement_1= self.class.new
 supplement_1.name ="VeganSafe B-12 "
@@ -16,4 +20,5 @@ B-12 is the largest vitamin known and difficult to absorb. Additionally, the gut
 supplement_1.name
 
 end
+
 end
