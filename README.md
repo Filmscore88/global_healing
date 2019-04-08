@@ -2,7 +2,8 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/global_healing`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+This gem provides a CLI to view the supplement line from the Global Healing center website.
+As you interact with the CLI screen prompts, you will have access to more information for each individual supplement.
 
 ## Installation
 
@@ -21,8 +22,9 @@ Or install it yourself as:
     $ gem install global_healing
 
 ## Usage
+Type the following into your terminal and follow instructions in red.
 
-TODO: Write usage instructions here
+$ ./bin/global_healing
 
 ## Development
 
