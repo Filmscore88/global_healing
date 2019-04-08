@@ -30,14 +30,14 @@ class GlobalHealing::CLI
 
       if input.to_i > 0
         puts @supplements[input.to_i-1].description.blue
-      elsif input == "url"
+        elsif input == "url"
         puts @supplements[input.to_i-1].url.blue
-      elsif input == "list"
-        display_supplement_list
-      elsif input == "exit"
-      end_program
-      else
-        puts "Hmmm, im sorry I did not recognize that entry.".red
+         elsif input == "list"
+         display_supplement_list
+          elsif input == "exit"
+          end_program
+           else
+           puts "Hmmm, im sorry I did not recognize that entry.".red
       end
     end
   end
